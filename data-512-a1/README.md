@@ -28,7 +28,7 @@ This directory contains 5 JSON files named as *apiname_accesstype_firstmonth-las
 | pageview_mobile_views | num_views      |the number of page views by mobile app and mobile web from the Pageviews API |
 
 ## Data Visualization
-![]()
+![](https://github.com/mshhh/data-512/blob/main/data-512-a1/en-wikipedia_traffic_200801-202009.png)
 
 
 ## Note
