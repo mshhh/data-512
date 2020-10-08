@@ -31,4 +31,5 @@ This directory contains 5 JSON files named as *apiname_accesstype_firstmonth-las
 
 ## Note
 The Pageviews APT allows us to filter by agent=user data in order to exclude spiders/crawlers while the Pagecounts API does not.
+
 The notebook uses Python version 3.7.4.
