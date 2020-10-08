@@ -30,6 +30,7 @@ This directory contains 5 JSON files named as *apiname_accesstype_firstmonth-las
 ## Data Visualization
 ![](https://github.com/mshhh/data-512/blob/main/data-512-a1/en-wikipedia_traffic_200801-202009.png)
 
+There was a new pageview definition starting from May 2015 that excludes all spiders/crawlers. The solid line represents the new definition.
 
 ## Note
 1. The Pageviews APT allows us to filter by agent=user data in order to exclude spiders/crawlers while the Pagecounts API does not.
