@@ -13,6 +13,8 @@ I used two different Wikimedia REST API endpoints for gathering the data:
 
 2. The Pageviews API: [documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews), [endpoints](https://wikimedia.org/api/rest_v1/#/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end)
 
+In addition, I followed this [example notebook](https://public.paws.wmcloud.org/User:Jtmorgan/data512_a1_example.ipynb) that contains sample code for API calls. 
+
 ## Data File Fields
 This directory contains 5 JSON files named as *apiname_accesstype_firstmonth-lastmonth.json*, 1 CSV final data file, 1 Jupyter notebook displaying the whole process, 1 image of data visualization, 1 README file, and 1 LICENSE file. The final data file in CSV follows the format and description as following. 
 
