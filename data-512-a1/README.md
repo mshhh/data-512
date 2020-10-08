@@ -28,8 +28,12 @@ This directory contains 5 JSON files named as *apiname_accesstype_firstmonth-las
 | pageview_mobile_views | num_views      |the number of page views by mobile app and mobile web from the Pageviews API |
 
 ## Data Visualization
+![]()
+
 
 ## Note
-The Pageviews APT allows us to filter by agent=user data in order to exclude spiders/crawlers while the Pagecounts API does not.
+1. The Pageviews APT allows us to filter by agent=user data in order to exclude spiders/crawlers while the Pagecounts API does not.
 
-The notebook uses Python version 3.7.4.
+2. There was about 1 year of overlapping traffic data between the two APIs as we can see from the graph shown above.
+
+3. The notebook uses Python version 3.7.4.
