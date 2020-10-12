@@ -2,10 +2,9 @@
 The goal of this project is to identify potential sources of bias in two datasets, "Wikipedia Talk Labels: Toxicity” and "Wikipedia Talk Labels: Personal Attacks", from the Wikipedia Talk corpus, and to perform an exploratory data analysis based on those data. The analysis is done in a Jupyter Notebook including a description about some implications of the bias and some suggestions on correcting those bias and reducing negative consequences. 
 
 ## License & Data Use
-This project is available under the [MIT License](https://github.com/mshhh/data-512/blob/main/data-512-a1/LICENSE)
+This project is available under the [MIT License](https://github.com/mshhh/data-512/blob/main/data-512-a1/LICENSE).
 
-The two datasets can be accessed through [Figshare](https://figshare.com/projects/Wikipedia_Talk/16731): [the Toxicity Figshare dataset](https://figshare.com/articles/Wikipedia_Talk_Labels_Toxicity/4563973) and [the Personal Attacks Figshare dataset](https://figshare.com/articles/Wikipedia_Talk_Labels_Personal_Attacks/4054689)
-
+The two datasets can be accessed through [Figshare](https://figshare.com/projects/Wikipedia_Talk/16731): the [Toxicity Figshare dataset](https://figshare.com/articles/Wikipedia_Talk_Labels_Toxicity/4563973) and the [Personal Attacks Figshare dataset](https://figshare.com/articles/Wikipedia_Talk_Labels_Personal_Attacks/4054689).
 
 The [Detox wiki page](https://meta.wikimedia.org/wiki/Research:Detox)
 
