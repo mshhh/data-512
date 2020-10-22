@@ -67,6 +67,8 @@ The figures created in this analysis were named as analysis1_fig1.png, analysis1
 
 Analysis 2:
 
+1. Based on the graph above, I found that crowworkers with different age groups labeled the comment inconsistently. For example, crowwokers in the age group of over 60 are more likely to label comments as toxicity and attack than croworkerss in other age groups. On the contrary, crowworkers of age under 18 own the lowest average indicator value which represents whether the worker thought the comment contains any form of personal attack (or the comment is toxic in the toxicity dataset). As far as I'm concerned, older age groups might be more sensitive to toxic and attack comments compared to younger crowworker, which can produce bias in this process.
+2. Since I joined the two datasets on rev_id and filtered the rows with the same age_group in the two datasets, I noticed that for the same comment, crowworkers under age 45 tend to label it as toxicty than as any forms of personal attack, and vice versa for crowworkers of age above 45. This difference would also introduce bias in the labeling process and this might be caused by different understanding of toxicity and personal attack between age groups. 
 
 The figure created in this analysis was named as analysis2_fig.png which can be found in the [image](https://github.com/mshhh/data-512/tree/main/data-512-a2/image) folder.
 
