@@ -16,11 +16,13 @@ The two datasets can be accessed through [Figshare](https://figshare.com/project
 For your information, you can learn more details about the project on [Detox wiki page](https://meta.wikimedia.org/wiki/Research:Detox) and [perspective API repository on GitHub](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks).
 
 ## Directory Structure 
-This directory contains 1 Jupyter notebook named hcds-a2-data-bias.jpynb displaying the whole analysis, 1 file named data including all source data, 1 file named image containing all images of data visualization, 1 README file, and 1 LICENSE file. The directory structure is shown as following. 
+This directory contains 1 Jupyter Notebook named hcds-a2-data-bias.jpynb displaying the whole analysis, 1 folder named [data]() including all source data, 1 folder named [image]() containing all images of data visualization, 1 README file, and 1 LICENSE file. The directory structure is shown as following. 
     
 ```
 data-512-a2
-│   hcds-a2-data-bias.jpynb   
+│   hcds-a2-data-bias.jpynb  
+│   README.md
+│   LICENSE
 └───data
 │   │   toxicity_annotated_comments.tsv
 │   │   toxicity_annotations.tsv
@@ -29,16 +31,45 @@ data-512-a2
 │   │   attack_annotations.tsv
 │   │   attack_worker_demographics.tsv   
 └───image
-│   │   file.png
-│   │   file.png
-└───README.md
-└───LICENSE
+│   │   analysis1_fig1.png
+│   │   analysis1_fig2.png
+│   │   analysis1_fig3.png
+│   │   analysis1_fig4.png
+│   │   analysis2_fig.png
 ```
       
+## Exploratory Analysis Research Questions 
 
-## Data Visualization
-![]()
+Analysis 1: Analyzing the demographic information about the Crowdflower workers that is available in the dataset. 
+
+For the first analysis, I only focused on one dataset (toxicity) and the the research questions I came up with are: 
+
+1. What are gender, age group, first language, and education level distributions among crowworkers in the toxicity dataset? 
+2. Does the demographic profile of the crowworkers match that of the general population?
+
+Analysis 2: Analyzing relationships between worker demographics and labeling behavior.
+
+Beside the demographic profile information of the crowworkers, I was also interested in analyzing if the unequal distribution of crowworkers would lead to bias in labeling behaviors. In particular, I paid more attention to the following research questions:
+
+1. How consistent are labelling behaviors among crowworkers with different ages?
+2. Does there exist a difference between age groups when labeling comments as toxicity vs. personal attacks?
+
+The Jupyter Notebook conducting the whole exploratory analysis can be found [here]().
+
+## Results
+
+Analysis 1:
+    
+1. Based on the graphs above, I found that 1. 66.0% of the crowworkers are male, 2. 52.6% (majority) of the crowworkers are 18-30 years old, 3. 82.6% of the crowworkers do not have English as their first language, and 4. 40.1% of the crowworkers have bachelor’s degrees, 28.3% are in high school. Therefore, we can see that the numbers of crowworkers for gender, age group, first language, and education level are disproportionate.    
+2. The distributions of crowworkers by gender, age group, first language, and education level do not represent the general population fairly. Therefore, the unequal distributions of crowworkers are likely to introduce some bias gender, age group, first language, and education level in the labelling process. For example, 82.6% of crowworks who are not English native speakers might understand the comments differently from the native speakers. As a result, when they label the comments, the misunderstanding can cause bias in this process and further would affect the training process for machine learning models.
+
+The figures created in this analysis were named as analysis1_fig1.png, analysis1_fig2.png, analysis1_fig3.png, and analysis1_fig4.png which can be found in the [image]() folder.
+
+Analysis 2:
+
+
+The figure created in this analysis was named as analysis2_fig.png which can be found in the [image]() folder.
 
 ## Note
-The notebook uses Python version 3.7.4.
+The Jupyter notebook uses Python version 3.7.4.
 
