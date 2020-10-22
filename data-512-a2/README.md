@@ -16,7 +16,7 @@ The two datasets can be accessed through [Figshare](https://figshare.com/project
 For your information, you can learn more details about the project on [Detox wiki page](https://meta.wikimedia.org/wiki/Research:Detox) and [perspective API repository on GitHub](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks).
 
 ## Directory Structure 
-This directory contains 1 Jupyter Notebook named hcds-a2-data-bias.jpynb displaying the whole analysis, 1 folder named [data]() including all source data, 1 folder named [image]() containing all images of data visualization, 1 README file, and 1 LICENSE file. The directory structure is shown as following. 
+This directory contains 1 Jupyter Notebook named hcds-a2-data-bias.jpynb displaying the whole analysis, 1 folder named [data](https://github.com/mshhh/data-512/tree/main/data-512-a2/data) including all source data, 1 folder named [image](https://github.com/mshhh/data-512/tree/main/data-512-a2/image) containing all images of data visualization, 1 README file, and 1 LICENSE file. The directory structure is shown as following. 
     
 ```
 data-512-a2
@@ -63,12 +63,12 @@ Analysis 1:
 1. Based on the graphs above, I found that 1. 66.0% of the crowworkers are male, 2. 52.6% (majority) of the crowworkers are 18-30 years old, 3. 82.6% of the crowworkers do not have English as their first language, and 4. 40.1% of the crowworkers have bachelor’s degrees, 28.3% are in high school. Therefore, we can see that the numbers of crowworkers for gender, age group, first language, and education level are disproportionate.    
 2. The distributions of crowworkers by gender, age group, first language, and education level do not represent the general population fairly. Therefore, the unequal distributions of crowworkers are likely to introduce some bias gender, age group, first language, and education level in the labelling process. For example, 82.6% of crowworks who are not English native speakers might understand the comments differently from the native speakers. As a result, when they label the comments, the misunderstanding can cause bias in this process and further would affect the training process for machine learning models.
 
-The figures created in this analysis were named as analysis1_fig1.png, analysis1_fig2.png, analysis1_fig3.png, and analysis1_fig4.png which can be found in the [image]() folder.
+The figures created in this analysis were named as analysis1_fig1.png, analysis1_fig2.png, analysis1_fig3.png, and analysis1_fig4.png which can be found in the [image](https://github.com/mshhh/data-512/tree/main/data-512-a2/image) folder.
 
 Analysis 2:
 
 
-The figure created in this analysis was named as analysis2_fig.png which can be found in the [image]() folder.
+The figure created in this analysis was named as analysis2_fig.png which can be found in the [image](https://github.com/mshhh/data-512/tree/main/data-512-a2/image) folder.
 
 ## Note
 The Jupyter notebook uses Python version 3.7.4.
