@@ -54,7 +54,7 @@ Beside the demographic profile information of the crowworkers, I was also intere
 1. How consistent are labelling behaviors among crowworkers with different ages?
 2. Does there exist a difference between age groups when labeling comments as toxicity vs. personal attacks?
 
-The Jupyter Notebook conducting the whole exploratory analysis can be found [here]().
+The Jupyter Notebook conducting the whole exploratory analysis can be found [here](https://github.com/mshhh/data-512/blob/main/data-512-a2/hcds-a2-data-bias.ipynb).
 
 ## Results
 
