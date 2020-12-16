@@ -19,5 +19,28 @@ For this analysis, I used H-1B Employer Data from U.S. Citizenship and Immigrati
 ![](https://github.com/mshhh/data-512/blob/main/data-512-final/plots/approval_denial_trend.png).   
 ![](https://github.com/mshhh/data-512/blob/main/data-512-final/plots/approval_rate_trend.png)
 
+## Directory Structure 
+This directory contains 1 Jupyter Notebook named a7-final-project-report.jpynb displaying the whole analysis, 1 Jupyter Notebook named a5-final-project-proposal.jpynb displaying the initial proposal, 1 folder named [data](https://github.com/mshhh/data-512/tree/main/data-512-final/data) including all source data, 1 folder named [plots](https://github.com/mshhh/data-512/tree/main/data-512-final/plots) containing all images of data visualization, 1 README file, and 1 LICENSE file. The directory structure is shown as following. 
+    
+```
+data-512-a2
+│   a7-final-project-report.jpynb 
+|   a5-final-project-proposal.jpynb
+│   README.md
+│   LICENSE
+└───data
+│   │   h1b_datahubexport-2015.csv
+│   │   h1b_datahubexport-2016.csv
+│   │   h1b_datahubexport-2017.csv
+│   │   h1b_datahubexport-2018.csv
+│   │   h1b_datahubexport-2019.csv  
+└───image
+│   │   approval_denial_trend.png
+│   │   approval_rate_trend.png
+```
+
 ## License
 This project is available under the [MIT License](https://github.com/mshhh/data-512/blob/main/data-512-final/LICENSE)
+
+## Note
+The Jupyter notebook uses Python version 3.7.4.
